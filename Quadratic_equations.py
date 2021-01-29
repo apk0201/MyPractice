@@ -4,10 +4,8 @@ class Solution:
         lst = []
         for i in range(n):
             y = a * (nums[i] ** 2) + b * nums[i] + c
-            lst.append(str(y))
+            lst.append(y)
             y == 0
-        for i in range(len(lst)):
-            lst[i] = int(lst[i])
         lst.sort()
         return lst
 
