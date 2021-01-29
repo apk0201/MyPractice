@@ -1,3 +1,8 @@
+# given an integer n consisting of digits 1, 2, and 3
+# you can flip one digit to a 3.
+# Return the maximum number you can make.
+
+
 class Solution:
     def solve(self, n):
         s1 = str(n)

@@ -1,3 +1,8 @@
+# Given a list of integers nums and an integer k,
+# return the maximum possible i where nums[0] + nums[1] + ...  + nums[i] ≤ k.
+# Return -1 if no valid i exists.
+
+
 class Solution:
     def solve(self, nums, k):
         a = 0

@@ -1,3 +1,6 @@
+# Given a string s, return whether it is a palindrome.
+
+
 class Solution:
     def solve(self, s):
         if s == s[::-1]:

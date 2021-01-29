@@ -1,3 +1,7 @@
+# Given an integer n,
+# return the maximum number you can make by inserting 5 anywhere in the number.
+
+
 class Solution:
     def solve(self, n):
         s1 = str(n)

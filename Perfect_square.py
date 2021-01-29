@@ -1,3 +1,8 @@
+# Given an integer n,
+# return whether n = k * k for some integer k.
+# This should be done without using built-in square root function.
+
+
 class Solution:
     def solve(self, n):
         k = n**(.5)

@@ -1,3 +1,9 @@
+# Given a list of strings words and a string letters,
+# return the length of longest string in words that can be made from letters in letters.
+# If no word can be made, return 0.
+# Note that you can't reuse letters.
+
+
 import math
 
 

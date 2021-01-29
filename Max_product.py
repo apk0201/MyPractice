@@ -1,3 +1,6 @@
+# Given a list of integers nums, find the largest product of two distinct elements.
+
+
 class Solution:
     def solve(self, nums):
         list1 = []

@@ -1,3 +1,7 @@
+# Given two strings a, and b, both representing an integer,
+# add and multiply them and return it in the same string representation.
+
+
 class Solution:
     def solve(self, a, b):
         a = int(a)

@@ -1,3 +1,8 @@
+# Given an integer n, return a list with each number from 1 to n,
+# except if it's a multiple of 3 or has a 3, 6, or 9 in the number, it should be the string "clap".
+# Note: return the number as a string.
+
+
 class Solution:
     def solve(self, n):
         s = "clap"

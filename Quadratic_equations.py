@@ -1,3 +1,8 @@
+# given a list of integers nums sorted in ascending order, and integers a, b, and c.
+# Apply the following function for each number x in nums: ax^2 + bx + cax 2 +bx+c
+# and return the resulting list in ascending order.
+
+
 class Solution:
     def solve(self, nums, a, b, c):
         n = len(nums)
@@ -10,7 +15,7 @@ class Solution:
         return lst
 
 
-nums = [-2,3]
+nums = [-2, 3]
 a, b, c = 1, -3, 2
 s = Solution()
 print(s.solve(nums, a, b, c))

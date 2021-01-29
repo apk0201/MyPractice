@@ -1,3 +1,7 @@
+# Given a list of [x, y] coordinates in a Cartesian plane,
+# return whether the coordinates form a straight line segment.
+
+
 class Solution:
     def solve(self, coordinates):
         n = len(coordinates)
