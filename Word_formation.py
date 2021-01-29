@@ -18,9 +18,7 @@ class Solution:
         if len(l1) !=0:
             for i in l1:
                 len1 = len(i)
-                l2.append(str(len1))
-            for i in range(len(l2)):
-                l2[i] = int(l2[i])
+                l2.append(len1)
             length = max(l2)
             return int(length)
         else:
