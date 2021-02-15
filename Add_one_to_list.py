@@ -7,7 +7,7 @@ class Solution:
         nums_str = ""
         for i in range(len(nums)):
             nums[i] = str(nums[i])
-        if nums != []:
+        if nums:
             nums_str = nums_str.join(nums)
             str_number = int(nums_str)
             add_one_num = str_number + 1
